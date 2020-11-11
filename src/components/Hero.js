@@ -21,7 +21,7 @@ function Hero() {
         touchRatio={effect ? 1:0} 
         cubeEffect={{slideShadows:false,shadow:false,shadowScale:0,shadowOffset:0}} 
         touchReleaseOnEdges={true}
-        threshold={227}
+        threshold={200}
          effect= "cube">
              <SwiperSlide><ContentBuilder {...slideOne} handleEffect1={handleEffect1} handleEffect2={handleEffect2}/> </SwiperSlide>
              <SwiperSlide><ContentBuilder {...slideTwo} handleEffect1={handleEffect1} handleEffect2={handleEffect2}/></SwiperSlide>
