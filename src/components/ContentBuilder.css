@@ -1,0 +1,77 @@
+.video{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(70%);
+}
+.icon-container{
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    margin-right:10px;
+}
+.icon-container img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.status{
+    float: left;
+    color: #ffff;
+}
+span{
+    margin-left: 10px;
+    display: inline-block;
+}
+.link{
+    float: left;
+    color: #ffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.link:hover{
+    transform: scale(1.1);
+}
+button{
+ outline: none;
+ background-color: rgb(20, 20, 20,0.65);
+ padding: 10px 20px;
+ font-size: 1rem;
+ margin: 10px;
+ border: none;
+ color: #ffff;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ text-transform: uppercase;
+cursor: pointer;
+}
+button:active{
+    transform: scale(.95);
+}
+.swiper__container{
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.swiper-scrollbar{
+    background-color: rgb(138, 135, 135) !important;
+}
+.swiper-scrollbar-drag{
+    background-color: #141414 !important;
+    border-radius: 0px !important;
+}
+.swiper-cube-shadow{
+    display: none !important;
+}
